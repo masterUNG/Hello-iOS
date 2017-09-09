@@ -44,6 +44,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ifZ-SU-twM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,6 +62,10 @@
                             <constraint firstItem="WdC-aG-bNl" firstAttribute="top" secondItem="xV8-kb-Xnm" secondAttribute="bottom" constant="38" id="tX4-eK-xcl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="FuR-zx-LJ7" id="ULp-eA-2Rl"/>
+                        <outlet property="nameTextField" destination="xV8-kb-Xnm" id="QFy-VQ-ekh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
